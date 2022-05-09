@@ -4339,7 +4339,7 @@ def confirmar2():
 
     paragraph = document.add_paragraph('Nome: ' + var_NomeCliente1 + ' e '+var_NomeCliente2+'\n'
                                                                     'Endereço: ' + var_EndCliente1 + ' N°' + var_NCliente1 + '\n'
-                                                                                                                             'Loteamento:' + var_LoteObra + '\n'
+                                                                                                                             'Loteamento:' + var_BairroCliente1 + '\n'
                                                                                                                                                             'CEP:' + var_CEPCliente1 + '\n'
                                                                                                                                                                                        'Cidade/Estado: ' + var_CidadeCliente1 + '-' + var_EstadoCliente1 + '\n'
                                                                                                                                                                                                                                                           'Telefone: ' + var_CelCliente1 + '\nEmail: '+var_EmailCliente1+'')
@@ -4354,9 +4354,8 @@ def confirmar2():
     font.bold = True
 
     paragraph = document.add_paragraph('Endereço: ' + var_EndObra + ' nº ' + var_NObra +
-                                       ') – LOTE N° ' + var_NObra + '\n'
-                                                                    'Loteamento:' + var_LoteObra + '\n'
-                                                                                                   'Quadra: ' + var_QuadraObra + '')
+                                       '\nLoteamento:' + var_BairroObra + '\n'
+                                                                             'Lote: '+var_LoteObra+' Quadra: ' + var_QuadraObra + '')
     paragraph.style = document.styles.add_style('style12', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'

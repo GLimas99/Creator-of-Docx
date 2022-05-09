@@ -16,7 +16,7 @@ dia = date.today().strftime('%d')
 mes = date.today().strftime('%m')
 ano = date.today().strftime('%Y')
 if mes == '01':
-    mesescrito = 'jAneiro'
+    mesescrito = 'janeiro'
 elif mes == '02':
     mesescrito = 'fevereiro'
 elif mes == '03':

@@ -7520,9 +7520,9 @@ def confirmar4():
     font.bold = True
     enter = document.add_paragraph('')
 
-    paragraph = document.add_paragraph('3.1 Este contrato não prevê acompanhamento da execução da obra. \n\n'
-                                       '3.2 Este contrato prevê 2 (duas) visitas técnicas no local da obra.\n\n'
-                                       '3.3 As visitas devem ser agendadas com antecedência mínima de 2 (dois) dias e seguir a agenda de atividades do responsável técnico.\n\n'
+    paragraph = document.add_paragraph('3.1 Este contrato não prevê acompanhamento da execução da obra. \n'
+                                       '3.2 Este contrato prevê 2 (duas) visitas técnicas no local da obra.\n'
+                                       '3.3 As visitas devem ser agendadas com antecedência mínima de 2 (dois) dias e seguir a agenda de atividades do responsável técnico.\n'
                                        '3.4 Caso houver interesse dos ')
     paragraph.paragraph_format.space_before = Pt(0)
     paragraph.paragraph_format.space_after = Pt(0)
@@ -7544,7 +7544,7 @@ def confirmar4():
     enter = document.add_paragraph('')
 
     paragraph = document.add_paragraph(
-        '4.1 O prazo da presente prestação de serviço dá-se início após a assinatura deste contrato e se estendera conforme tramitação legal dos órgãos responsáveis para a liberação dos documentos essenciais com resultado final.\n\n'
+        '4.1 O prazo da presente prestação de serviço dá-se início após a assinatura deste contrato e se estendera conforme tramitação legal dos órgãos responsáveis para a liberação dos documentos essenciais com resultado final.\n'
         '4.2 O valor deste contrato é de')
     paragraph.paragraph_format.space_before = Pt(0)
     paragraph.paragraph_format.space_after = Pt(0)
@@ -7578,15 +7578,13 @@ def confirmar4():
     enter = document.add_paragraph('')
     enter = document.add_paragraph('')
 
-    paragraph = document.add_paragraph('5. MULTAS')
+    paragraph = document.add_paragraph('\n5. MULTAS')
     paragraph.paragraph_format.space_before = Pt(0)
     paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style11', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Book Antiqua'
     font.bold = True
-    enter = document.add_paragraph('')
-    enter = document.add_paragraph('')
     enter = document.add_paragraph('')
 
     paragraph = document.add_paragraph('5.1')
@@ -7608,8 +7606,6 @@ def confirmar4():
         'fica ciente, ainda que a multa se refere simplesmente a mora, não impedindo a cobrança de outras multas devidas pela inflação ou inexecução de quaisquer das mais clausulas deste contrato e a sua cobrança em meses posteriores. Além dessa multa serão devidos juros e correção monetária, ambos calculados pelo máximo e na forma permitidos pela lei vigente, sempre que houver atraso no pagamento do contrato ou dos encargos.')
 
     enter = document.add_paragraph('')
-    enter = document.add_paragraph('')
-    enter = document.add_paragraph('')
 
     paragraph = document.add_paragraph('6. FORO COMPETENTE, DESAPROPRIAÇÂO E AÇOES.')
     paragraph.paragraph_format.space_before = Pt(0)
@@ -7620,7 +7616,7 @@ def confirmar4():
     enter = document.add_paragraph('')
 
     paragraph = document.add_paragraph(
-        '6.1 O presente contrato reger-se-á pelo Código Civil Brasileiro e Legislação suplementar, não estabelecendo, em hipóteses alguma, vínculo empregatício entre os contratantes. \n\n'
+        '6.1 O presente contrato reger-se-á pelo Código Civil Brasileiro e Legislação suplementar, não estabelecendo, em hipóteses alguma, vínculo empregatício entre os contratantes. \n'
         '6.2 Fica eleito o foro')
     paragraph.paragraph_format.space_before = Pt(0)
     paragraph.paragraph_format.space_after = Pt(0)
@@ -7633,16 +7629,9 @@ def confirmar4():
         ', com renúncia de outro por mais privilegio que seja, para quaisquer dúvidas decorrentes deste contrato, sejam quais forem os domicílios dos contratos, mesmo para ações posteriores ao termino deste contrato, inclusive para ações de cobrança, ainda que os ')
     runner = paragraph.add_run('CONTRATANTES ')
     runner.bold = True
-    paragraph.add_run('tenham se mudado ou já residam em outra comarca.\n\n'
+    paragraph.add_run('tenham se mudado ou já residam em outra comarca.\n'
                       '6.3 Nos termos do deciso no processo 85.232/88, da Serasa, com força de Provimento, publicado no diário Oficial de 22/6/1995, Cad. I Parte I, se o poder Judiciário informar a ação á Serasa, as providencias pela baixa do nome nesse órgão ficam por conta do devedor, uma vez que não foi a locadora ou sua representante legal que fez a informação.')
-    enter = document.add_paragraph('')
-    enter = document.add_paragraph('')
-    enter = document.add_paragraph('')
-    enter = document.add_paragraph('')
-    enter = document.add_paragraph('')
-    enter = document.add_paragraph('')
-    enter = document.add_paragraph('')
-    enter = document.add_paragraph('')
+
 
     paragraph = document.add_paragraph(
         'E assim por estarem justos e contratados assinam o presente em 02 (duas) vias de igual teor e valor.')
@@ -7660,11 +7649,8 @@ def confirmar4():
     font.name = 'Book Antiqua'
     font.bold = True
 
-    enter = document.add_paragraph('')
-    enter = document.add_paragraph('')
-
     paragraph = document.add_paragraph(
-        '_________________________________          _____________________________________')
+        '\n\n\n\n_________________________________          _____________________________________')
     paragraph.paragraph_format.space_before = Pt(0)
     paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style17', WD_STYLE_TYPE.PARAGRAPH)
@@ -7689,11 +7675,8 @@ def confirmar4():
     font.name = 'Book Antiqua'
     font.bold = True
 
-    enter = document.add_paragraph('')
-    enter = document.add_paragraph('')
-
     paragraph = document.add_paragraph(
-        '_________________________________          _____________________________________')
+        '\n\n\n\n_________________________________          _____________________________________')
     paragraph.paragraph_format.space_before = Pt(0)
     paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style17.3', WD_STYLE_TYPE.PARAGRAPH)
@@ -7719,7 +7702,7 @@ def confirmar4():
     font.bold = True
 
     paragraph = document.add_paragraph(
-        '_________________________________')
+        '\n\n\n\n_________________________________')
     paragraph.paragraph_format.space_before = Pt(0)
     paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style17.4', WD_STYLE_TYPE.PARAGRAPH)
@@ -7750,10 +7733,12 @@ def confirmar4():
     # Memorial Descritivo
     document = Document()
 
+    document.sections[0].header_distance = Cm(0.5)
+
     sections = document.sections
     for section in sections:
-        section.top_margin = Cm(-4.5)
-        section.bottom_margin = Cm(1.27)
+        section.top_margin = Cm(0)
+        section.bottom_margin = Cm(0)
         section.left_margin = Cm(1.27)
         section.right_margin = Cm(1.27)
 
@@ -7765,6 +7750,8 @@ def confirmar4():
     logo_run.add_picture("image/logo.png", width=Cm(2.65), height=Cm(2.65))
 
     paragraph = document.add_paragraph('MEMORIAL DESCRITIVO')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.bold = True
@@ -7777,6 +7764,8 @@ def confirmar4():
                                        'Local: ' + var_EndObra + ', nº ' + var_NObra + ' Lote: ' + var_LoteObra + ' – Quadra: ' + var_QuadraObra + '\n'
                                                                                                                                                    'Loteamento: ' + var_BairroObra + ' -  ' + var_CidadeObra + ' - SP\n'
                                                                                                                                                                                                                'Proprietário: ')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7806,8 +7795,12 @@ def confirmar4():
     runner.bold = True
 
     enter = document.add_paragraph('')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
 
     paragraph = document.add_paragraph('ÁREA DO TERRENO – ' + var_AreaObra + ' m² ')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7816,6 +7809,8 @@ def confirmar4():
     enter = document.add_paragraph('')
 
     paragraph = document.add_paragraph('Descrição')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.bold = True
@@ -7826,6 +7821,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'MOVIMENTO DE TERRA: Será realizada uma limpeza da superfície do terreno, tal como remoção da camada vegetal.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7833,6 +7830,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'TIPO DE FUNDAÇÃO: Serão executadas brocas de concreto armado, posteriormente, sapatas na cabeça das brocas, as quais apoiarão as vigas baldrames, que por sua vez embasam a alvenaria. Todos os componentes da fundação serão executados e concretados “in loco”.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7840,6 +7839,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'IMPERMEABILIZAÇÃO: Para evitar os fenômenos de capilaridade e percolação (umidade nas partes inferiores da alvenaria), todas as vigas baldrames e primeiras fiadas da alvenaria receberão tratamento contra a umidade proveniente do solo.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7847,6 +7848,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'ESTRUTURA: Será utilizadas estrutura convencional de concreto armado: pilares e vigas. As peças serão devidamente moldadas e concretadas “in loco”.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7854,6 +7857,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'ALVENARIA: Será executada alvenaria com blocos cerâmicos assentados com argamassa mista de cimento cal e areia. Serão executadas também vergas e contravergas nos vãos de janelas e portas.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.5', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7861,6 +7866,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'FORRO: Será executado em laje pré-fabricada de concreto armado em todas as dependências da edificação, com uso de vigas pré-fabricadas e lajotas cerâmicas.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.6', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7868,6 +7875,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'COBERTURA: A cobertura será composta por telhas Metálicas com estrutura de aço; o telhado apresentará inclinação média de 11%.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.7', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7875,6 +7884,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'REVESTIMENTO PAREDES: O revestimento das paredes de dependências consideradas molhadas será executado com revestimento cerâmico até o teto. Nas demais paredes, o revestimento será constituído de chapisco grosso e emboço com argamassa mista de cimento e areia.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.8', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7882,6 +7893,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'PISOS E RODAPÉS: O revestimento do piso será de cerâmica em todas as dependências internas; externamente o piso será revestido de cimentado desempenado.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.9', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7889,6 +7902,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'PORTAS: As portas, tanto internas quanto externas, serão de madeira e alumínio, todas com as devidas ferragens e em bom estado de conservação.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.10', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7896,6 +7911,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'JANELAS: Todas as janelas serão de alumínio, de correr ou de abrir, estas também, devidamente tratadas e envernizadas.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.11', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7903,6 +7920,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'ÁGUAS PLUVIAIS: Serão coletadas e conduzidas à via pública. A captação será feita pelo telhado que por sua vez conduzirá estas águas até as calhas de onde irão para a via pública, por meio de tubos de PVC, as águas lançadas no quintal irão para via pública.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.12', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7910,6 +7929,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'INSTALAÇÕES ELÉTRICAS: Serão executadas de acordo com as Normas Técnicas. Serão utilizados fios e cabos de cobre, cujas secções atenderão as necessidades a que serão submetidos. Todas a instalações serão instaladas em perfeitas condições de uso. O medidor de entrada de energia será executado e instalado de acordo com as necessidades e exigências da concessionária fornecedora deste serviço.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.13', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7917,6 +7938,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'INSTALAÇÕES HIDRO-SANITÁRIAS: Estas instalações serão dimensionadas e executadas de acordo com as Normas Técnicas. Sendo que todos os aparelhos hidrossanitários estarão em funcionamento correto. Serão utilizadas e executadas caixas de inspeção e de gordura nos pontos necessários para boa manutenção e funcionamento destas instalações. Para condução de água (fria) potável, serão utilizados tubos de PVC marrom soldável. O sistema de esgoto e águas servidas tem seu lançamento para rede publica de esgoto.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.14', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7924,6 +7947,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'PINTURA: A pintura será executada em látex em todas as paredes, tanto internas quando externas. As esquadrias e caixilharias em geral, como já descrito, serão devidamente impermeabilizadas e protegidas contra as intempéries.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.15', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7931,12 +7956,16 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'LIMPEZA: A obra será totalmente limpa de entulhos. A edificação será apta a ser habitada, obedecendo às condições mínimas de conforto, segurança e habitabilidade.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.16', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.JUSTIFY
 
     paragraph = document.add_paragraph('' + var_CidadeObra + ', ' + dia + ' de ' + mesescrito + ' de ' + ano + '.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style6', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -7945,66 +7974,88 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '\n\n\n\n\n\n_________________________________                                    _____________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style17', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'Proprietário:' + var_NomeCliente1 + '                                                Proprietário:' + var_NomeCliente2 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style19', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'CPF:' + var_CPFCliente1 + '                                                                        CPF:' + var_CPFCliente2 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style20', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         '\n\n\n\n_________________________________                                    _____________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style17.2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'Proprietário:' + var_NomeCliente3 + '                                                 Proprietário:' + var_NomeCliente4 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style19.2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'CPF:' + var_CPFCliente3 + '                                                                         CPF:' + var_CPFCliente4 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style20.2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         '\n\n\n\n_________________________________                                    _____________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style17.4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'ROGÉRIO ROCHA SOARES')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style19.4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'Engenheiro Civil')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style20.4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'CREA: 5070347192-SP')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style21.4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'ART' + var_ArtObra + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style22.4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8015,10 +8066,12 @@ def confirmar4():
     # RRC sem lei
     document = Document()
 
+    document.sections[0].header_distance = Cm(0.5)
+
     sections = document.sections
     for section in sections:
-        section.top_margin = Cm(-4.5)
-        section.bottom_margin = Cm(2)
+        section.top_margin = Cm(0)
+        section.bottom_margin = Cm(0)
         section.left_margin = Cm(2.5)
         section.right_margin = Cm(1.75)
 
@@ -8030,6 +8083,8 @@ def confirmar4():
     logo_run.add_picture("image/logo.png", width=Cm(2.65), height=Cm(2.65))
 
     paragraph = document.add_paragraph('EXMO SR. PREFEITO DO MUNICÍPIO DE HORTOLÂNDIA,')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.bold = True
@@ -8037,7 +8092,9 @@ def confirmar4():
     font.size = Pt(16)
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
 
-    paragraph = document.add_paragraph('\n\nNós,')
+    paragraph = document.add_paragraph('\nNós,')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8046,17 +8103,21 @@ def confirmar4():
         ' ' + var_NomeCliente1 + ', ' + var_NomeCliente2 + ', ' + var_NomeCliente3 + ' e ' + var_NomeCliente4 + '')
     runner.bold = True
     paragraph.add_run(
-        'abaixo assinado vem mui respeitosamente, solicitar a aprovação do projeto para construção residencial familiar, no imóvel abaixo descrito, cuja documentação segue anexa.')
+        ' abaixo assinado vem mui respeitosamente, solicitar a aprovação do projeto para construção residencial familiar, no imóvel abaixo descrito, cuja documentação segue anexa.')
 
     paragraph = document.add_paragraph(
         '                                                                         Nestes Termos,\n'
         '                                                                         Pede Deferimento.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         '' + var_CidadeObra + ', ' + dia + ' de ' + mesescrito + ' de ' + ano + '.\n')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8064,6 +8125,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '\n\n\n_________________________________                            _________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8071,18 +8134,24 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '' + var_NomeCliente1 + '                                                           ' + var_NomeCliente2 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style6', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'CPF: ' + var_CPFCliente1 + '                                                              CPF: ' + var_CPFCliente2 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style7', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         '\n\n\n_________________________________                            _________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8090,82 +8159,67 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '' + var_NomeCliente1 + '                                                           ' + var_NomeCliente2 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style6.4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'CPF: ' + var_CPFCliente1 + '                                                              CPF: ' + var_CPFCliente2 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style7.4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph('Dados Complementares:')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style8', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
-    paragraph = document.add_paragraph('Dos Proprietários')
+    paragraph = document.add_paragraph('Dos Proprietários:')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style9', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
     font.bold = True
 
-    paragraph = document.add_paragraph('Nome:' + var_NomeCliente1 + '\n'
-                                                                    'Endereço: ' + var_EndCliente1 + ' N°' + var_NCliente1 + '\n'
-                                                                                                                             'Loteamento:' + var_LoteObra + '\n'
-                                                                                                                                                            'CEP:' + var_CEPCliente1 + '\n'
-                                                                                                                                                                                       'Cidade/Estado:' + var_CidadeCliente1 + '-' + var_EstadoCliente1 + '\n'
-                                                                                                                                                                                                                                                          'Telefone: ' + var_CelCliente1 + '')
+    paragraph = document.add_paragraph('Nomes: ' + var_NomeCliente1 + ', '+var_NomeCliente2+', '+var_NomeCliente3+' e '+var_NomeCliente4+'\n'
+                                                                    'Endereço: ' + var_EndCliente1 + ' N°: ' + var_NCliente1 + '\n'
+                                                                                                                             'Loteamento: ' + var_LoteObra + '\n'
+                                                                                                                                                            'CEP: ' + var_CEPCliente1 + '\n'
+                                                                                                                                                                                       'Cidade/Estado: ' + var_CidadeCliente1 + '-' + var_EstadoCliente1 + '\n'
+                                                                                                                                                                                                                                                          'Telefone: ' + var_CelCliente1 + '\n'+var_EmailCliente1+'')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style10', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
-    paragraph = document.add_paragraph('Nome:' + var_NomeCliente2 + '\n'
-                                                                    'Endereço: ' + var_EndCliente2 + ' N°' + var_NCliente2 + '\n'
-                                                                                                                             'Loteamento:' + var_LoteObra + '\n'
-                                                                                                                                                            'CEP:' + var_CEPCliente2 + '\n'
-                                                                                                                                                                                       'Cidade/Estado:' + var_CidadeCliente2 + '-' + var_EstadoCliente2 + '\n'
-                                                                                                                                                                                                                                                          'Telefone: ' + var_CelCliente2 + '')
-    paragraph.style = document.styles.add_style('style10.2', WD_STYLE_TYPE.PARAGRAPH)
-    font = paragraph.style.font
-    font.name = 'Arial'
-
-    paragraph = document.add_paragraph('Nome:' + var_NomeCliente3 + '\n'
-                                                                    'Endereço: ' + var_EndCliente3 + ' N°' + var_NCliente3 + '\n'
-                                                                                                                             'Loteamento:' + var_LoteObra + '\n'
-                                                                                                                                                            'CEP:' + var_CEPCliente3 + '\n'
-                                                                                                                                                                                       'Cidade/Estado:' + var_CidadeCliente3 + '-' + var_EstadoCliente3 + '\n'
-                                                                                                                                                                                                                                                          'Telefone: ' + var_CelCliente3 + '')
-    paragraph.style = document.styles.add_style('style10.3', WD_STYLE_TYPE.PARAGRAPH)
-    font = paragraph.style.font
-    font.name = 'Arial'
-
-    paragraph = document.add_paragraph('Nome:' + var_NomeCliente4 + '\n'
-                                                                    'Endereço: ' + var_EndCliente4 + ' N°' + var_NCliente4 + '\n'
-                                                                                                                             'Loteamento:' + var_LoteObra + '\n'
-                                                                                                                                                            'CEP:' + var_CEPCliente4 + '\n'
-                                                                                                                                                                                       'Cidade/Estado:' + var_CidadeCliente4 + '-' + var_EstadoCliente4 + '\n'
-                                                                                                                                                                                                                                                          'Telefone: ' + var_CelCliente4 + '')
-    paragraph.style = document.styles.add_style('style10.4', WD_STYLE_TYPE.PARAGRAPH)
-    font = paragraph.style.font
-    font.name = 'Arial'
 
     paragraph = document.add_paragraph('Da Obra')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style11', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
     font.bold = True
 
-    paragraph = document.add_paragraph('Endereço: ' + var_EndObra + ' nº ' + var_NObra +
-                                       ') – LOTE N° ' + var_NObra + '\n'
-                                                                    'Loteamento:' + var_LoteObra + '\n'
-                                                                                                   'Quadra:' + var_QuadraObra + '')
+    paragraph = document.add_paragraph('Endereço: ' + var_EndObra + ' nº: ' + var_NObra +
+                                       '\nLoteamento:' + var_BairroObra + '\nLote: '+var_LoteObra+' Quadra:' + var_QuadraObra + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style12', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
-    paragraph = document.add_paragraph('\n\nDo Responsável Técnico')
+    paragraph = document.add_paragraph('\nDo Responsável Técnico')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style13', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8176,6 +8230,8 @@ def confirmar4():
                                        'Celular: (19) 982009858\n'
                                        'Inscrição SMPUGE: 1036/18\n'
                                        'E-mail: rocha.soares@hotmail.com\n')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style14', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8186,10 +8242,12 @@ def confirmar4():
     # RRC com lei
     document = Document()
 
+    document.sections[0].header_distance = Cm(0.5)
+
     sections = document.sections
     for section in sections:
-        section.top_margin = Cm(-4.5)
-        section.bottom_margin = Cm(2)
+        section.top_margin = Cm(0)
+        section.bottom_margin = Cm(0)
         section.left_margin = Cm(2.5)
         section.right_margin = Cm(1.75)
 
@@ -8201,6 +8259,8 @@ def confirmar4():
     logo_run.add_picture("image/logo.png", width=Cm(2.65), height=Cm(2.65))
 
     paragraph = document.add_paragraph('EXMO SR. PREFEITO DO MUNICÍPIO DE HORTOLÂNDIA,')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.bold = True
@@ -8209,6 +8269,8 @@ def confirmar4():
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
 
     paragraph = document.add_paragraph('DE ACORDO COM A LEI Nª3.491/2018')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style1', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8216,6 +8278,8 @@ def confirmar4():
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
 
     paragraph = document.add_paragraph('\n\nNós,')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8224,17 +8288,21 @@ def confirmar4():
         ' ' + var_NomeCliente1 + ', ' + var_NomeCliente2 + ', ' + var_NomeCliente3 + ' e ' + var_NomeCliente4 + '')
     runner.bold = True
     paragraph.add_run(
-        'abaixo assinado vem mui respeitosamente, solicitar a aprovação do projeto para construção residencial familiar, no imóvel abaixo descrito, cuja documentação segue anexa.')
+        ' abaixo assinado vem mui respeitosamente, solicitar a aprovação do projeto para construção residencial familiar, no imóvel abaixo descrito, cuja documentação segue anexa.')
 
     paragraph = document.add_paragraph(
         '                                                                         Nestes Termos,\n'
         '                                                                         Pede Deferimento.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         '' + var_CidadeObra + ', ' + dia + ' de ' + mesescrito + ' de ' + ano + '.\n')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8242,6 +8310,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '\n\n\n_________________________________                            _________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8249,18 +8319,24 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '' + var_NomeCliente1 + '                                                           ' + var_NomeCliente2 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style6', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'CPF: ' + var_CPFCliente1 + '                                                              CPF: ' + var_CPFCliente2 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style7', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         '\n\n\n_________________________________                            _________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8268,82 +8344,67 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '' + var_NomeCliente1 + '                                                           ' + var_NomeCliente2 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style6.4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'CPF: ' + var_CPFCliente1 + '                                                              CPF: ' + var_CPFCliente2 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style7.4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
-    paragraph = document.add_paragraph('Dados Complementares:')
+    paragraph = document.add_paragraph('\nDados Complementares:')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style8', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
-    paragraph = document.add_paragraph('Dos Proprietários')
+    paragraph = document.add_paragraph('\nDos Proprietários:')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style9', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
     font.bold = True
 
-    paragraph = document.add_paragraph('Nome:' + var_NomeCliente1 + '\n'
-                                                                    'Endereço: ' + var_EndCliente1 + ' N°' + var_NCliente1 + '\n'
-                                                                                                                             'Loteamento:' + var_LoteObra + '\n'
-                                                                                                                                                            'CEP:' + var_CEPCliente1 + '\n'
-                                                                                                                                                                                       'Cidade/Estado:' + var_CidadeCliente1 + '-' + var_EstadoCliente1 + '\n'
-                                                                                                                                                                                                                                                          'Telefone: ' + var_CelCliente1 + '')
+    paragraph = document.add_paragraph(
+        'Nomes:' + var_NomeCliente1 + ', ' + var_NomeCliente2 + ', ' + var_NomeCliente3 + ' e ' + var_NomeCliente4 + '\n'
+                                                                                                                 'Endereço: ' + var_EndCliente1 + ' N°: ' + var_NCliente1 + '\n'
+                                                                                                                                                                          'Loteamento: ' + var_LoteObra + '\n'
+                                                                                                                                                                                                         'CEP: ' + var_CEPCliente1 + '\n'
+                                                                                                                                                                                                                                    'Cidade/Estado: ' + var_CidadeCliente1 + '-' + var_EstadoCliente1 + '\n'
+                                                                                                                                                                                                                                                                                                       'Telefone: ' + var_CelCliente1 + '\nEmail:' + var_EmailCliente1 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style10', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
-    paragraph = document.add_paragraph('Nome:' + var_NomeCliente2 + '\n'
-                                                                    'Endereço: ' + var_EndCliente2 + ' N°' + var_NCliente2 + '\n'
-                                                                                                                             'Loteamento:' + var_LoteObra + '\n'
-                                                                                                                                                            'CEP:' + var_CEPCliente2 + '\n'
-                                                                                                                                                                                       'Cidade/Estado:' + var_CidadeCliente2 + '-' + var_EstadoCliente2 + '\n'
-                                                                                                                                                                                                                                                          'Telefone: ' + var_CelCliente2 + '')
-    paragraph.style = document.styles.add_style('style10.2', WD_STYLE_TYPE.PARAGRAPH)
-    font = paragraph.style.font
-    font.name = 'Arial'
-
-    paragraph = document.add_paragraph('Nome:' + var_NomeCliente3 + '\n'
-                                                                    'Endereço: ' + var_EndCliente3 + ' N°' + var_NCliente3 + '\n'
-                                                                                                                             'Loteamento:' + var_LoteObra + '\n'
-                                                                                                                                                            'CEP:' + var_CEPCliente3 + '\n'
-                                                                                                                                                                                       'Cidade/Estado:' + var_CidadeCliente3 + '-' + var_EstadoCliente3 + '\n'
-                                                                                                                                                                                                                                                          'Telefone: ' + var_CelCliente3 + '')
-    paragraph.style = document.styles.add_style('style10.3', WD_STYLE_TYPE.PARAGRAPH)
-    font = paragraph.style.font
-    font.name = 'Arial'
-
-    paragraph = document.add_paragraph('Nome:' + var_NomeCliente4 + '\n'
-                                                                    'Endereço: ' + var_EndCliente4 + ' N°' + var_NCliente4 + '\n'
-                                                                                                                             'Loteamento:' + var_LoteObra + '\n'
-                                                                                                                                                            'CEP:' + var_CEPCliente4 + '\n'
-                                                                                                                                                                                       'Cidade/Estado:' + var_CidadeCliente4 + '-' + var_EstadoCliente4 + '\n'
-                                                                                                                                                                                                                                                          'Telefone: ' + var_CelCliente4 + '')
-    paragraph.style = document.styles.add_style('style10.4', WD_STYLE_TYPE.PARAGRAPH)
-    font = paragraph.style.font
-    font.name = 'Arial'
-
     paragraph = document.add_paragraph('Da Obra')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style11', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
     font.bold = True
 
     paragraph = document.add_paragraph('Endereço: ' + var_EndObra + ' nº ' + var_NObra +
-                                       ') – LOTE N° ' + var_NObra + '\n'
-                                                                    'Loteamento:' + var_LoteObra + '\n'
-                                                                                                   'Quadra:' + var_QuadraObra + '')
+                                       '\nLoteamento:' + var_BairroObra + '\nLote: ' + var_LoteObra + ' Quadra:' + var_QuadraObra + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style12', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph('\n\nDo Responsável Técnico')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style13', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8354,6 +8415,8 @@ def confirmar4():
                                        'Celular: (19) 982009858\n'
                                        'Inscrição SMPUGE: 1036/18\n'
                                        'E-mail: rocha.soares@hotmail.com\n')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style14', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8364,10 +8427,12 @@ def confirmar4():
     # Procuração
     document = Document()
 
+    document.sections[0].header_distance = Cm(0.5)
+
     sections = document.sections
     for section in sections:
-        section.top_margin = Cm(-4.5)
-        section.bottom_margin = Cm(2)
+        section.top_margin = Cm(0)
+        section.bottom_margin = Cm(0)
         section.left_margin = Cm(2.5)
         section.right_margin = Cm(1.75)
 
@@ -8379,6 +8444,8 @@ def confirmar4():
     logo_run.add_picture("image/logo.png", width=Cm(2.65), height=Cm(2.65))
 
     paragraph = document.add_paragraph('PROCURAÇÃO ')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.bold = True
@@ -8388,6 +8455,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'Constitui procurador para a prática de atos perante a Prefeitura Municipal de Hortolândia\n')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8429,13 +8498,17 @@ def confirmar4():
     paragraph.add_run('especialmente para em seu nome e como se o próprio fosse praticar os atos especificados acima.')
 
     paragraph = document.add_paragraph('\n' + var_CidadeObra + ', ' + dia + ' de ' + mesescrito + ' de ' + ano + '.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.RIGHT
 
     paragraph = document.add_paragraph(
-        '\n\n\n\n\n_________________________________                            _________________________________')
+        '\n\n\n\n_________________________________                            _________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8443,6 +8516,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'OUTORGANTE:                                                                                                OUTORGANTE:')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8451,18 +8526,24 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '' + var_NomeCliente1 + '                                                           ' + var_NomeCliente2 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style6', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'CPF: ' + var_CPFCliente1 + '                                                              CPF: ' + var_CPFCliente2 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style7', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
-        '\n\n\n\n\n\n\n\n\n\n_________________________________                            _________________________________')
+        '\n\n\n\n_________________________________                            _________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style4.3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8470,6 +8551,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'OUTORGANTE:                                                                                                OUTORGANTE:')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5.3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8478,24 +8561,32 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '' + var_NomeCliente3 + '                                                           ' + var_NomeCliente4 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style6.3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'CPF: ' + var_CPFCliente3 + '                                                               CPF: ' + var_CPFCliente4 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style7.3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
-        '\n\n\n\n_________________________________')
+        '\n\n\n_________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style8', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
     font.bold = True
 
     paragraph = document.add_paragraph('OUTORGADO:')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style9', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8503,6 +8594,8 @@ def confirmar4():
     font.bold = True
 
     paragraph = document.add_paragraph('Eng.º Civil: Rogério Rocha Soares')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style10', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8510,6 +8603,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'CPF: 183.125.858-77')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style11', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8521,10 +8616,12 @@ def confirmar4():
     # Declaração
     document = Document()
 
+    document.sections[0].header_distance = Cm(0.5)
+
     sections = document.sections
     for section in sections:
-        section.top_margin = Cm(3.49)
-        section.bottom_margin = Cm(1.1)
+        section.top_margin = Cm(0)
+        section.bottom_margin = Cm(0)
         section.left_margin = Cm(2)
         section.right_margin = Cm(2)
 
@@ -8546,6 +8643,8 @@ def confirmar4():
     logo_run.add_picture("image/Logo_Hortolandia.png", width=Cm(4.9), height=Cm(2.65))
 
     paragraph = document.add_paragraph('ANEXO I')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8553,6 +8652,8 @@ def confirmar4():
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
 
     paragraph = document.add_paragraph('DECLARAÇÃO')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.bold = True
@@ -8566,6 +8667,8 @@ def confirmar4():
                                        ' de produtos e subprodutos de madeira de origem nativa'
                                        ' em obras e serviços de Engenharia Civil no Município'
                                        ' de Hortolândia”, nós, ' + var_NomeCliente1 + ', (' + var_ProfissaoCliente1 + '), ' + var_NomeCliente2 + ', (' + var_ProfissaoCliente2 + '), ' + var_NomeCliente3 + ', (' + var_ProfissaoCliente3 + ') e ' + var_NomeCliente4 + ', (' + var_ProfissaoCliente4 + '),')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8601,6 +8704,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '       ●      Nota Fiscal constando o número do DOF, em caso de utilização de produtos ou subprodutos de madeira de ')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8615,6 +8720,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '       ●      Declaração que fez a reutilização de madeira ou que utilizou madeira de reflorestamento;')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8623,6 +8730,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '       ●     Declaração que não utilizou madeira de origem nativa, por ter utilizado novas tecnologias ou produtos alternativos.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style6', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8630,13 +8739,17 @@ def confirmar4():
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.JUSTIFY
 
     paragraph = document.add_paragraph('\n' + var_CidadeObra + ', ' + dia + ' de ' + mesescrito + ' de ' + ano + '.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style7', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.RIGHT
 
     paragraph = document.add_paragraph(
-        '\n\n\n\n_____________________________________')
+        '\n\n\n\n_____________________________________                                                   _____________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style8', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8644,7 +8757,9 @@ def confirmar4():
     font.bold = True
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.RIGHT
 
-    paragraph = document.add_paragraph('PROPRIETÁRIO ' + var_NomeCliente1 + '')
+    paragraph = document.add_paragraph('PROPRIETÁRIO ' + var_NomeCliente1 + '                                                          PROPRIETÁRIO '+var_NomeCliente2+'')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style9', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8654,7 +8769,9 @@ def confirmar4():
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.RIGHT
 
     paragraph = document.add_paragraph(
-        '\n\n\n\n_____________________________________')
+        '\n\n\n\n_____________________________________                                                   _____________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style8.2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8662,7 +8779,9 @@ def confirmar4():
     font.bold = True
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.RIGHT
 
-    paragraph = document.add_paragraph('PROPRIETÁRIO ' + var_NomeCliente2 + '')
+    paragraph = document.add_paragraph('PROPRIETÁRIO ' + var_NomeCliente3 + '                                                          PROPRIETÁRIO '+var_NomeCliente4+'')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style9.2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8671,43 +8790,8 @@ def confirmar4():
     font.bold = True
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.RIGHT
 
-    paragraph = document.add_paragraph(
-        '\n\n\n_____________________________________')
-    paragraph.style = document.styles.add_style('style8.3', WD_STYLE_TYPE.PARAGRAPH)
-    font = paragraph.style.font
-    font.name = 'Times New Roman'
-    font.size = Pt(10)
-    font.bold = True
-    paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.RIGHT
 
-    paragraph = document.add_paragraph('PROPRIETÁRIO ' + var_NomeCliente3 + '')
-    paragraph.style = document.styles.add_style('style9.3', WD_STYLE_TYPE.PARAGRAPH)
-    font = paragraph.style.font
-    font.name = 'Times New Roman'
-    font.bold = True
-    font.size = Pt(10)
-    font.bold = True
-    paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.RIGHT
-
-    paragraph = document.add_paragraph(
-        '\n\n\n_____________________________________')
-    paragraph.style = document.styles.add_style('style8.4', WD_STYLE_TYPE.PARAGRAPH)
-    font = paragraph.style.font
-    font.name = 'Times New Roman'
-    font.size = Pt(10)
-    font.bold = True
-    paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.RIGHT
-
-    paragraph = document.add_paragraph('PROPRIETÁRIO ' + var_NomeCliente4 + '')
-    paragraph.style = document.styles.add_style('style9.4', WD_STYLE_TYPE.PARAGRAPH)
-    font = paragraph.style.font
-    font.name = 'Times New Roman'
-    font.bold = True
-    font.size = Pt(10)
-    font.bold = True
-    paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.RIGHT
-
-    paragraph = document.add_paragraph('\n\n\n\n\n\n\n\nEm conformidade com o disposto no artigo 4º da '
+    paragraph = document.add_paragraph('\nEm conformidade com o disposto no artigo 4º da '
                                        'Lei Municipal nº 2.529, de 04 de abril de 2011, '
                                        'que “Dispõe sobre controle ambiental para utilização'
                                        ' de produtos e subprodutos de madeira de origem nativa'
@@ -8718,6 +8802,8 @@ def confirmar4():
                                                                                                                                                                                 ' DECLARO estar ciente das disposições constantes da Instrução Normativa'
                                                                                                                                                                                 ' nº 112, de 21 de agosto de 2006, do Instituto Brasileiro '
                                                                                                                                                                                 'do Meio Ambiente e dos Recursos Naturais Renováveis - IBAMA, e ')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style10', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8731,14 +8817,18 @@ def confirmar4():
     paragraph.add_run(
         'decorrentes de desmatamento autorizado ou de manejo florestal aprovado por órgão ambiental competente, integrante do Sistema Nacional do Meio Ambiente – SISNAMA, com autorização de transporte reconhecida pelo órgão ambiental competente, exigindo no ato da compra que as empresas que comercializem madeiras, forneçam o DOF (Documento de Origem Florestal), acompanhado de nota fiscal.')
 
-    paragraph = document.add_paragraph('\n' + var_CidadeObra + ', ' + dia + ' de ' + mesescrito + ' de ' + ano + '.')
+    paragraph = document.add_paragraph('' + var_CidadeObra + ', ' + dia + ' de ' + mesescrito + ' de ' + ano + '.')
+    paragraph.paragraph_format.space_before = Pt(12)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style11', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.RIGHT
 
     paragraph = document.add_paragraph(
-        '\n\n\n\n_________________________________')
+        '\n\n\n_________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style12', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8747,6 +8837,8 @@ def confirmar4():
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.RIGHT
 
     paragraph = document.add_paragraph('AUTOR DO PROJETO')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style13', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Times New Roman'
@@ -8763,10 +8855,12 @@ def confirmar4():
     # ---------------------MEMORIAL DESCRITIVO PARA CONSTRUÇÃO---------------------------------------------------------------------------------------------
     document = Document()
 
+    document.sections[0].header_distance = Cm(0.5)
+
     sections = document.sections
     for section in sections:
-        section.top_margin = Cm(-4.5)
-        section.bottom_margin = Cm(2)
+        section.top_margin = Cm(0)
+        section.bottom_margin = Cm(0)
         section.left_margin = Cm(2.5)
         section.right_margin = Cm(1.75)
 
@@ -8778,6 +8872,8 @@ def confirmar4():
     logo_run.add_picture("image/logo.png", width=Cm(2.65), height=Cm(2.65))
 
     paragraph = document.add_paragraph('MEMORIAL DESCRITIVO PARA CONSTRUÇÃO')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.bold = True
@@ -8786,6 +8882,8 @@ def confirmar4():
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
 
     paragraph = document.add_paragraph('Obra: REGULARIZAÇÃO E CONSTRUÇÃO RESIDENCIAL MULTIFAMILIAR – R2')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8793,6 +8891,8 @@ def confirmar4():
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.JUSTIFY
 
     paragraph = document.add_paragraph('(DE ACORDO COM A LEI 3.491/2018 - ANISTIA)')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8800,24 +8900,32 @@ def confirmar4():
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.JUSTIFY
 
     paragraph = document.add_paragraph('Local: ' + var_EndObra + '- N° ' + var_NObra + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style4', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
     font.size = Pt(9)
 
     paragraph = document.add_paragraph('Lote: ' + var_LoteObra + ' Quadra: ' + var_QuadraObra + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style5', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
     font.size = Pt(9)
 
     paragraph = document.add_paragraph('Loteamento: ' + var_LoteObra + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style6', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
     font.size = Pt(9)
 
     paragraph = document.add_paragraph('Município: ' + var_CidadeObra + '/SP')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style7', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8825,12 +8933,16 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         'Proprietário(s): ' + var_NomeCliente1 + ', ' + var_NomeCliente2 + ', ' + var_NomeCliente3 + ' e ' + var_NomeCliente4 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style8', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
     font.size = Pt(9)
 
     paragraph = document.add_paragraph('Responsável Técnico: Eng. Civil ROGÉRIO ROCHA SOARES')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style9', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8838,6 +8950,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '01 – Preparação do terreno: Raspagem com moto-niveladora e os resíduos será retirado e depositado em local devidamente autorizado e legalizado pela Prefeitura Municipal.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style10', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8846,6 +8960,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '02 – Fundações: A fundação do alicerçada em estacas manuais, blocos e vigas baldrame em concreto armado.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style11', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8854,6 +8970,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '03 – Impermeabilização: Com Vedacit no concreto e na argamassa de embasamento. Será aplicado neutrol no baldrame antes do reaterro.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style12', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8862,6 +8980,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '04 – Estrutura: Os pilares, vergas, contra-vergas, vigas de apoio e vigas de respaldo em concreto armado batido na própria obra.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style13', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8870,6 +8990,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '05 - Alvenaria: As paredes externas e internas executadas com bloco cerâmico (barro) de oito furos (15 cm), assentados com argamassa de areia e cimento. A altura do pé direito será de 2,80m em toda a casa.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style14', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8877,6 +8999,8 @@ def confirmar4():
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.JUSTIFY
 
     paragraph = document.add_paragraph('06 - Forro: O forro de laje pré-moldada de concreto.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style15', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8885,6 +9009,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '07- Cobertura: O telhado foi executado com telhas de barro estrutura de madeira com inclinação de 26% na residência.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style16', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8893,6 +9019,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '08 - Instalações hidráulicas: Instalado conforme normas da SABESP e NBR 7229/93,')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style17', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8901,6 +9029,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '        a) - Água fria: Abastecida pela rede pública e armazenada em dois reservatórios elevados, com capacidade de 1.000 litros d’agua na residência;')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style18', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8909,6 +9039,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '        b) - Esgotos sanitários: canalizados com tubos de PVC com diâmetro 100 mm para a rede pública de afastamento de esgoto.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style19', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8917,6 +9049,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '        c) – Águas pluviais: coletada por meio de sistema de calhas galvanizadas e desce por condutores e são canalizadas até a sarjeta por meio de tubos de PVC, por sob a calçada.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style20', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8925,6 +9059,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '09 - Instalações elétricas: Instalado conforme normas da CPFL, composto de um ponto de luz para cada compartimento e tomadas em número suficiente para atender a demanda.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style21', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8933,6 +9069,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '10 – Revestimento: Os banheiros da residência e da dependência em azulejo até a altura do forro;')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style22', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8941,6 +9079,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '11 - Pisos: Nivelado com argamassa de areia e cimento e revestimento cerâmico em todos os compartimentos.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style23', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8949,6 +9089,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '12 - Esquadrias: As Janelas e portas externas são em alumínio e as portas internas de madeira, conforme as medidas indicadas no projeto.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style24', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8957,6 +9099,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '13 – Pintura: As paredes de alvenaria, internas pintadas com tinta látex PVA; as paredes externas pintadas com tinta látex, acrílica, as janelas e portas serão pintadas com esmalte sintético.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style25', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8965,6 +9109,8 @@ def confirmar4():
 
     paragraph = document.add_paragraph(
         '14 – Limpeza Geral da Obra: Após a conclusão da obra, foi feita a retirada dos restos de materiais e entulho.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style26', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8972,6 +9118,8 @@ def confirmar4():
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.JUSTIFY
 
     paragraph = document.add_paragraph('' + var_CidadeObra + ', ' + dia + ' de ' + mesescrito + ' de ' + ano + '.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style27', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
@@ -8979,70 +9127,102 @@ def confirmar4():
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
 
     paragraph = document.add_paragraph(
-        '\n\n\n\n\n\n\n_________________________________                    _____________________________________')
+        '\n\n\n\n_______________________________________                    ________________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style28', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
+    font.size = Pt(8)
 
     paragraph = document.add_paragraph(
-        'Proprietário: ' + var_NomeCliente1 + '                               Proprietário: ' + var_NomeCliente2 + '')
+        'Proprietário: ' + var_NomeCliente1 + '                       Proprietário: ' + var_NomeCliente2 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style29', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
+    font.size = Pt(10)
 
     paragraph = document.add_paragraph(
-        'CPF:' + var_CPFCliente1 + '                                                        CPF:' + var_CPFCliente2 + '')
+        'CPF:' + var_CPFCliente1 + '                                            CPF:' + var_CPFCliente2 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style30', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
+    font.size = Pt(10)
 
     paragraph = document.add_paragraph(
-        '\n\n\n\n_________________________________                    _____________________________________')
+        '\n\n\n\n_____________________________________                    _______________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style28.3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
+    font.size = Pt(8)
 
     paragraph = document.add_paragraph(
-        'Proprietário: ' + var_NomeCliente3 + '                               Proprietário: ' + var_NomeCliente4 + '')
+        'Proprietário: ' + var_NomeCliente3 + '                    Proprietário: ' + var_NomeCliente4 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style29.3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
+    font.size = Pt(10)
 
     paragraph = document.add_paragraph(
-        'CPF:' + var_CPFCliente3 + '                                                        CPF:' + var_CPFCliente4 + '')
+        'CPF:' + var_CPFCliente3 + '                                          CPF:' + var_CPFCliente4 + '')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style30.3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
+    font.size = Pt(10)
 
     paragraph = document.add_paragraph(
-        '\n\n\n\n\n_________________________________')
+        '\n\n\n\n_________________________________')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style28.2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
+    font.size = Pt(8)
 
     paragraph = document.add_paragraph(
         'ROGÉRIO ROCHA SOARES')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style29.2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
+    font.size = Pt(10)
 
     paragraph = document.add_paragraph(
         'Engenheiro Civil')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style30.2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
+    font.size = Pt(10)
 
     paragraph = document.add_paragraph(
         'CREA: 5070347192-SP')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style31.2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
 
     paragraph = document.add_paragraph(
         'SMPUGE: 1036/18')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style32.2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Arial'
+    font.size = Pt(10)
 
     document.save(
         './PROCESSO DE CLIENTES/' + var_CidadeObra + '/' + ano + '/' + var_TipoObra + '/' + var_NomeCliente1 + ', ' + var_NomeCliente2 + ', ' + var_NomeCliente3 + ' e ' + var_NomeCliente4 + '/Memorial Descritivo para Construção ' + var_NomeCliente1 + ', ' + var_NomeCliente2 + ', ' + var_NomeCliente3 + ' e ' + var_NomeCliente4 + '.docx')
@@ -9050,9 +9230,11 @@ def confirmar4():
     # ---------------------Recibo---------------------------------------------------------------------------------------------
     document = Document()
 
+    document.sections[0].header_distance = Cm(0.5)
+
     sections = document.sections
     for section in sections:
-        section.top_margin = Cm(-4.5)
+        section.top_margin = Cm(0)
         section.bottom_margin = Cm(2)
         section.left_margin = Cm(2.5)
         section.right_margin = Cm(1.75)
@@ -9065,6 +9247,8 @@ def confirmar4():
     logo_run.add_picture("image/logo.png", width=Cm(2.65), height=Cm(2.65))
 
     paragraph = document.add_paragraph('RECIBO')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.bold = True
@@ -9078,6 +9262,8 @@ def confirmar4():
                                                                                                                                                                     'arquitetônico a quantia de R$ ' + var_ValorParcelaContrato + ',00 (' + var_ValorParcelaContratoextenso +
                                        '), de um total de '
                                        'R$ ' + var_ValorContrato + ',00 (' + var_ValorContratoextenso + ').')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style2', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.bold = True
@@ -9085,6 +9271,8 @@ def confirmar4():
     font.size = Pt(12)
 
     paragraph = document.add_paragraph('\n\n' + var_CidadeObra + ' ' + dia + ' / ' + mesescrito + ' / ' + ano + '.')
+    paragraph.paragraph_format.space_before = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(0)
     paragraph.style = document.styles.add_style('style3', WD_STYLE_TYPE.PARAGRAPH)
     font = paragraph.style.font
     font.name = 'Book Antiqua'
@@ -9675,4 +9863,3 @@ registro = Label(root, text="Open Spurce - Syller", font='underline')
 registro.pack(side=BOTTOM)
 
 root.mainloop()
-
